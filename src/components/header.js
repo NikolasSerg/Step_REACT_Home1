@@ -1,5 +1,5 @@
 import React from 'react';
-import NavItem from './header/NavItem.js';
+import NavItem from './header/navItem.js';
 
 
 class Nav extends React.Component{

@@ -4,6 +4,7 @@ import './index.css';
 import Header from './components/header.js'
 import Content from './components/content.js'
 import Footer from './components/footer.js'
+import Aside from "./components/aside";
 
 class Main extends React.Component{
 	render(){
@@ -11,6 +12,7 @@ class Main extends React.Component{
 		    <main>
                 <Header />
 				<Content />
+				<Aside />
                 <Footer />
             </main>
 		)
