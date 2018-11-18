@@ -7,14 +7,17 @@ import Footer from './components/footer.js'
 import Aside from "./components/aside";
 
 class Main extends React.Component{
+	state = {
+		item: null
+	};
 	render(){
 		return(
-		    <main>
+		    <div  className="container">
                 <Header />
 				<Content />
 				<Aside />
                 <Footer />
-            </main>
+            </div>
 		)
 	}
 }

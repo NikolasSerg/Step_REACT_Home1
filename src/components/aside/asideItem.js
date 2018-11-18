@@ -6,7 +6,7 @@ class AsideItem extends React.Component {
             <article>
                 <h2>{this.props.h2}</h2>
                 <p>{this.props.p}</p>
-                <p>{this.props.messege}</p>
+                <p>{this.props.title}</p>
             </article>
         )
     }

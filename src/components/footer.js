@@ -1,21 +1,20 @@
 import React from 'react';
-import FooterItem from './footer/footerItem';
 
 class Footer extends React.Component {
     state = {
-        adresess: [
-            'Украина, г.Киев, ул. Фрунзе, 30.б/16',
-            'Украина, г.Ровно, ул.Соборна, 15/34',
-            'Украина, г.Львов, ул.Центральная, 28/1'
+        adresses: [
+	        {id:"1fotter", adress:'Украина, г.Киев, ул. Фрунзе, 30.б/16'},
+	        {id:"2fotter", adress:'Украина, г.Ровно, ул.Соборна, 15/34'},
+	        {id:"3fotter", adress:'Украина, г.Львов, ул.Центральная, 28/1'}
         ]
     };
 
     render(){
         return(
             <ul>
-                {this.state.adresess.map((iterator) => {
+                {this.state.adresses.map((iterator) => {
                             return (
-                                <FooterItem text={iterator}/>
+	                            <li key = {iterator.id}>{iterator.adress}</li>
                             )
                         }
                     )
