@@ -1,0 +1,19 @@
+div img {
+	width: auto;
+	height: 300px;
+	border: 5px solid #4444ba;
+	float: left;
+}
+div p {
+	font-size: 1.2em;
+	display: inline;
+	height: 100%;
+}
+.clearBoth {
+	clear: both;
+}
+.col-5 img {
+	height: 80px;
+	width: auto;
+
+}

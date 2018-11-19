@@ -1,0 +1,9 @@
+h2 {
+	text-align: center;
+}
+h2 + br + div {
+	border: 2px solid #57ff31;
+}
+.col-5 h6 {
+	display: inline-block;
+}

@@ -12,11 +12,12 @@ class Main extends React.Component{
 	};
 	render(){
 		return(
-		    <main>
+		    <div  className="container">
                 <Header />
 				<Content />
+				<Aside />
                 <Footer />
-            </main>
+            </div>
 		)
 	}
 }
